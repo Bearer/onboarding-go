@@ -1,7 +1,7 @@
 cloud.google.com/go v0.26.0/go.mod h1:aQUYkXzVsufM+DwF1aE+0xfcU+56JwCaLick0ClmMTw=
 github.com/BurntSushi/toml v0.3.1/go.mod h1:xHWCNGjB5oqiDr8zfno3MHue2Ht5sIBksp03qcyfWMU=
-github.com/bearer/go-agent v0.0.0-20200708113341-0ff888d172ff h1:4Cb8FhsZ9JNyT823+/z5TB1Lz1uH2sFZGK5lSl3tEok=
-github.com/bearer/go-agent v0.0.0-20200708113341-0ff888d172ff/go.mod h1:GTM8wUzpa+zi0C6SHBIcJNLxlMMm9jsvSLEhndy+CKQ=
+github.com/bearer/go-agent v1.0.0 h1:HvESlHfgezv8TwRbo11GhHzEMORU9p3sZZxaTG2NM/o=
+github.com/bearer/go-agent v1.0.0/go.mod h1:GTM8wUzpa+zi0C6SHBIcJNLxlMMm9jsvSLEhndy+CKQ=
 github.com/census-instrumentation/opencensus-proto v0.2.1/go.mod h1:f6KPmirojxKA12rnyqOA5BBL4O983OfeGPqjHWSTneU=
 github.com/cheekybits/is v0.0.0-20150225183255-68e9c0620927/go.mod h1:h/aW8ynjgkuj+NQRlZcDbAbM1ORAbXjXX77sX7T289U=
 github.com/client9/misspell v0.3.4/go.mod h1:qj6jICC3Q7zFZvVWo7KLAzC3yx5G7kyvSDkc90ppPyw=

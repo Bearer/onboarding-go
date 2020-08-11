@@ -14,10 +14,11 @@ import (
 )
 
 func main() {
-	defer bearer.Init(
+	agent := bearer.New(
 		os.Getenv("BEARER_SECRET_KEY"),
-		bearer.WithRuntimeEnvironmentType(os.Getenv("APP_ENV")),
-	)()
+		bearer.WithEnvironment(os.Getenv("APP_ENV")),
+	)
+	defer agent.Close()
 
 	var client = &http.Client{
 		Timeout: time.Second * 10,
