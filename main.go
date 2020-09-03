@@ -20,6 +20,9 @@ func main() {
 	)
 	defer agent.Close()
 
+	fmt.Println("-- Waiting for initialization --")
+	time.Sleep(10 * time.Second)
+
 	var client = &http.Client{
 		Timeout: time.Second * 10,
 	}
